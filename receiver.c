@@ -184,7 +184,7 @@ int main() {
 
         gettimeofday(&end, 0); //Save the current time
         
-        printf("\nSEcond half of file received successfully.\n");
+        printf("\nSecond half of file received successfully.\n");
         
         //Take care about the time
         seconds = (double)(end.tv_sec - begin.tv_sec);
